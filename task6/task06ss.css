@@ -1,7 +1,8 @@
+*{margin: 0px;padding: 0px;}
 .all{width: 936px;
     height: 1386px;
     border:solid;
-    margin: 0px;
+    margin: 0px auto;
     padding-left: 44px;
 ;}
 .title{width: 892px;
@@ -32,12 +33,14 @@
     width: 892px;
     height: 301px;
     margin: 40px 0px ;
-    border-bottom: solid;
 }
 .sp1{background-image: url("img/img1.jpg");
     width: 641px;
     height: 301px;
-    border: solid;}
+    border: solid;
+    float: left;
+
+}
 .sp1g{width: 191px  ;
      height: 301px;
      background-color: green;
@@ -50,24 +53,24 @@
     float: right;
     opacity: 0.4;
 }
-.sp2{
+.sp2{clear：both;
     width: 203px;
     height: 301px;
     float:right;
     border-top: solid 2px #cc8091;
     padding: 0px;
     margin: 0px;
+    position: relative;
 }
-.sp2 #p1{
+ .p1{
     font-family: 微软雅黑;
     font-size: 21px;
     color: #000000;
-    margin-top: 40px;
     text-decoration: underline;
     text-transform:capitalize;
     margin:0px;
 }
-.sp2 #p1:first-letter{
+.p1:first-letter{
     font-size: 25px;
 }
 #p2{
@@ -82,26 +85,29 @@
     color: #75b86b;
     font-family: 微软雅黑;
     margin-top: 10px;
+    margin-left: 0px;
 }
 #p4{
     font-size: 55px;
     color: #cc8091;
     font-family: 微软雅黑;
-    margin-top: -135px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 #p5{
     font-size: 21px;
     color: #cc8091;
     font-family: 微软雅黑;
-    float: right;
-    margin-top: -100px;
-    margin-right: 95px;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
 }
 #p6{
     font-size: 12px;
     color: #cc8091;
     font-family: 微软雅黑;
-    float: right;
-    margin-top: -80px;
-    margin-right: 56px;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;  
 }
