@@ -1,0 +1,86 @@
+.main{
+    width: 1280px;
+    height: 980px;
+    padding: 0px;
+    margin: 0px auto;
+    border: solid;
+}
+.title{
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+.title img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.tul1{
+    font-size: 15px;
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.tul1 li{
+    float:left ;
+    margin: 10px;
+    height: 37px;
+    width: 70px;
+    text-align: center;
+}
+.tul1 li a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+.tul1 li:hover {
+    border-bottom: solid red 4px;
+}
+.lii span{
+    color: crimson;
+}
+.lii{
+}
+.lii img{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.part1 {
+    background-image: url("img7/img3.png");
+    margin: 0px;
+    height: 690px;
+    width: 1280px;
+}
+.p1text{
+    float: left;
+    width: 500px;
+    height: 350px;
+    margin-left: 130px;
+    margin-top: 250px;
+}
+.p1text h1{
+    text-align:left;
+    font-family:"Microsoft YaHei ";
+    font-size: 60px;
+    color: white;
+}
+.p1text p{
+    margin-top: -35px;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: 宋体;
+    color: white;
+}
+.bt1 {
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: #e7504d;
+    width: 350px;
+    height:60px;
+    font-size: 30px;
+    border: 0px;
+    font-family: 宋体;
+    color: white;
+}
