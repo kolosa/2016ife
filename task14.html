@@ -20,17 +20,19 @@
         ["上海", 50],
         ["福州", 10],
         ["广州", 50],
+        ["西安", 100],
         ["成都", 90],
-        ["西安", 100]
     ];
 
     (function () {
-        for (var i = 0; i < aqiData.length; i++){
-            if(aqiData[i][1]>60){
-                document.write(aqiData[i]+"<br/>")
+        for (var i = 0; i < aqiData.length; i++) {
+            if (aqiData[i][1] > 60) {
+                var city = aqiData[i]
             }
-        }
+            document.write(city[1]+"<br/>")
 
+
+        }
     })();
 
 </script>
