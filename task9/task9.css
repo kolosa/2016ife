@@ -15,8 +15,8 @@
 .hsea{
     width: 280px;
     height: 30px;
-    float: right;
-    margin-right: 30px;
+    position: absolute;
+    margin-left: 1050px;
     margin-top: 10px;
     border-radius: 50px;
     padding-left: 40px ;
@@ -24,11 +24,89 @@
 }
 .hbt{
     background:url("img/img3.png") no-repeat #2289bf 0px 3px;
-    float: right;
-    margin-right: 120px;
+    position: absolute;
+    margin-left: 1400px;
     margin-top: 15px;
     width: 70px;
     border: none;
     color: #fff;
+}
+.main{
+    margin: auto;
+    width: 1280px;
+    height: 1280px;
+    padding: 0px;
+}
+.left{
+    width: 260px;
+    height: 100%;
+    background-color: #2a2e3d;
+    font-family: "Microsoft YaHei ";
+}
+.user{
+    width: 100%;
+    height: 90px;
+}
+.pho{
+    border: solid 1px #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.phot{
+    border: solid 1px #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    background-color: #fff;
+}
+.user a{
+    color: #fff;
+    float: right;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+.fo{
+    width: 100%;
+    height: 40px;
+}
+.fo ul{
+    list-style: none;
+    color: #4c5869;
+    float: right;
+}
+.fo ul li{
+    float:left;
+}
+.fo ul li p{
+    font-size: 15px;
+}
+.li1{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right:solid 1px;
+}
+.li2{
+    margin-right: 100px;
+}
+.list{
+    line-height: 40px;
+    list-style: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei ";
+    color: #4c5869;
+    width: 100%;
 
+}
+.list li{
+    list-style: none;
+}
+.list1{
+    background-color: #383d4e;
+    padding-left: 40px;
+;
 }
