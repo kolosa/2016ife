@@ -102,11 +102,45 @@
     width: 100%;
 
 }
+.list i{
+    margin-top: 14px;
+    margin-right: 5px;
+    float: left;
+    width: 12px;
+    height: 12px;
+}
 .list li{
     list-style: none;
+    padding-left: 40px;
 }
 .list1{
     background-color: #383d4e;
-    padding-left: 40px;
-;
+}
+
+.icon1{
+     background: url("img/icon1.png") no-repeat center;
+}
+.icon-l{
+    background: url("img/icon-l.png") no-repeat center;
+}
+.icon-d{
+     background: url("img/icon-d.png") no-repeat center;
+}
+.icon-doc{
+    background: url("img/icon-doc.png") no-repeat center;
+}
+.icon-doce{
+    background: url("img/icon-doce.png") no-repeat center;
+}
+.icon-star{
+    background: url("img/icon-star.png") no-repeat center;
+}
+.icon-sh{
+    background: url("img/icon-sh.png") no-repeat center;
+}
+.icon-im{
+    background: url("img/icon-im.png") no-repeat center;
+}
+.icon-ba{
+    background: url("img/icon-ba.png") no-repeat center;
 }
