@@ -144,3 +144,111 @@
 .icon-ba{
     background: url("img/icon-ba.png") no-repeat center;
 }
+
+.r{
+    float: right;
+    width: 80%;
+    background-color: #eeeded;
+    height: 100%;
+}
+
+.head2{
+    box-sizing:border-box;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 0px 5px #aaaaaa;
+    background-color: #ffffff;
+    font-size: 13px;
+    padding:10px 20px;
+}
+.head2 li{
+    list-style: none;
+    float: left;
+}
+.head2 ul li:after{
+    content: "/";
+    padding: 3px;
+}
+.r1{
+    box-shadow: 0px 0px 5px #aaaaaa;
+    height: 100px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.search{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.search select{
+    border-radius: 5px ;
+    appearance:none;
+}
+.change{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.change select{
+    border-radius: 5px ;
+    appearance:none;
+    width: 120px;
+}
+.sell{
+    margin-top: 10px;
+}
+.chan{
+    float:left;
+}
+.cha{
+    float: right;
+    background: url("img/img5.png");
+    width: 27px;
+    height: 37px;
+    margin-top: 7px;
+}
+.cha a{
+   line-height: 37px;
+    margin-left: 13px;
+}
+.date{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    width: 370px;
+    height: 60px;
+    line-height: 30px;
+}
+.date a{
+    margin-left: 25px;
+}
+.date input{
+     border-radius: 5px;
+     margin-left: 5px;
+ }
+.date select{
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.das1{
+     width: 130px;
+ }
+.das2{
+    width: 75px;
+}
+.r1btn{
+    background-color: #388bc2;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    color: #fff;
+    border: none;
+
+}
