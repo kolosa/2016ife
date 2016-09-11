@@ -16,7 +16,7 @@
     width: 280px;
     height: 30px;
     position: absolute;
-    margin-left: 1050px;
+    margin-left: 1450px;
     margin-top: 10px;
     border-radius: 50px;
     padding-left: 40px ;
@@ -25,7 +25,7 @@
 .hbt{
     background:url("img/img3.png") no-repeat #2289bf 0px 3px;
     position: absolute;
-    margin-left: 1400px;
+    margin-left: 1800px;
     margin-top: 15px;
     width: 70px;
     border: none;
@@ -332,4 +332,66 @@ background:#ddd;
     float: left;
     margin-left: 12px;
     margin-top: 20px;
+}
+.m4{
+    height: 100px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.m4ul{
+    list-style: none;
+    margin-top: 5px;
+}
+.m4ul li{
+    float: left;
+    width: 200px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #aaaaaa;
+    position: relative;
+}
+.m1l1{
+    border-left: solid 5px #43b29e;
+}
+.m1l2{
+    border-left: solid 5px #388bc2;
+    margin-left: 26px;
+}
+.m1l3{
+    border-left: solid 5px #d04a36;
+    margin-left:  26px;
+}
+.m1l4{
+    border-left: solid 5px #e2cd47;
+    margin-left:   26px;
+}
+.m4ul li p{
+    margin-top: 15px;
+    margin-left:8px;
+    line-height: 20px;
+}
+.m4ul li span{
+    font-size: 12px;
+    margin-left: 8px;
+    color: #9d9b9a;
+}
+.m4ul li div{
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.l1g{
+    background-color: #43b29e;
+}
+.l2g{
+    background-color: #388bc2;
+}
+.l3g{
+    background-color: #d04a36;
+}
+.l4g{
+    background-color: #e2cd47;
 }
