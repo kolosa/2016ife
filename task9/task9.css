@@ -427,6 +427,9 @@ background:#ddd;
     width: 490px;
     height: 25px;
 }
+.tabs{
+    position: relative;
+}
 .tab-t ul{
     margin-left: 20px;
     margin-top: 10px;
@@ -434,36 +437,56 @@ background:#ddd;
 .tab-t li{
     list-style: none;
     float: left;
-    border: solid 2px #e7e8eb;
+
     text-align: center;
     width: 85px;
     height: 25px;
-    border-radius: 3px 3px 0px 0px;
-    background: #ededf0
 }
 .tw,.th,.fr,.fi{
     margin-left: 3px;
 }
 .m-t{
-display: none;
+    display: none;
 }
 .f-m,.tw-m,.th-m,.fr-m,.fi-m{
     width: 490px;
     height: 250px;
     border: solid 1px #e7e8eb;
-    margin-left: 20px ;
-    margin-top: 2px;
+    top: -2px;
+    position: absolute;
 }
 .tw-m,.th-m,.fr-m,.fi-m{
-    display: none;
+
 }
-.m-t1{
+.m-t{
     margin-left: 35px ;
     margin-top: 30px;
     width: 400px;
-    height: 185px;
-    border: solid 1px  #e7e8eb ;
+    height: 186px;
+    border-collapse:collapse;
+    text-align: center;
 }
-.m-t1 td{
+.m-t td{
     border:solid 1px  #e7e8eb ;
+    width: 100px;
+    height: 31px;
+}
+.tabs label{
+    display: block;
+    width: 85px;
+    height: 27px;
+    background-color:#ededf0 ;
+    border-radius: 3px 3px 0px 0px;
+    border: solid 2px #e7e8eb;
+    position: relative;
+    z-index: 1;
+}
+#f:checked~ label,#tw:checked~ label,#th:checked~ label,#fr:checked~ label,#fi:checked~ label{
+    background-color:#fff ;
+    border-bottom: none;
+}
+#f:checked~ .f-m .m-t,#tw:checked~ .tw-m .m-t,#th:checked~ .th-m .m-t,#fr:checked~ .fr-m .m-t,#fi:checked~ .fi-m .m-t{
+    display: block;
+    left:0;
+    top:40px;
 }
