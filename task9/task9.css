@@ -557,8 +557,170 @@ background:#ddd;
     width:50px;
     height:26px;
     margin-right: 10px;
-    text-align: center;background:#388ac1;
+    text-align: center;
+    background:#388ac1;
     color:#fff;
     border-radius: 2px;
     border: none;
   }
+.seda{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.seda input{
+    background-color: #fff;
+    border: solid 1px #aaa ;
+    width: 80px;
+}
+.data{
+    margin-left: 30px;
+}
+.dt{
+    width: 290px;
+    height: 250px;
+    text-align: center;
+    margin-top: 10px;
+    border-collapse: collapse;
+
+}
+.week tr{
+
+}
+.week td {
+    border-bottom:solid 1px #aaa;
+    border-top: solid 1px #388ac1;
+    font-family: "Microsoft YaHei ";
+    height: 25px;
+    font-size: 10px;
+}
+
+.fes small{
+    color: #d04a36;
+}
+.weekend span{
+    display: inline-block;
+    color: #d04a36;
+}
+.weekend small{
+    color: black;
+}
+.day span{
+    display: inline-block;
+    height: 39px;
+    width: 40px;
+}
+.day td {
+    width: 55px;
+    height: 40px;
+    margin-top: 3px;
+    line-height: 15px;
+
+}
+.sec span{
+    border: solid 1px #ffff00;
+    box-sizing:border-box;
+}
+.day span:hover{
+    margin: -1px;
+    border: solid 1px #ffff00;
+}
+.car{
+    margin:auto;
+    margin-top: 15px;
+    width: 430px;
+    height: 290px;
+    border: solid 1px #aaa;
+    text-align: center;
+}
+.rank{
+    width: 70px;
+}
+.name{
+    width: 90px;
+}
+.car td,th{
+    border: solid 1px #aaa;
+    cursor:pointer;
+}
+.car tr:hover{
+    background-color: #f4f5f6;
+}
+.car p{
+    display: inline-block;
+    width: 120px;
+    height: 4px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    background-color: #aaa;
+    border-radius: 2px;
+}
+.rank1{
+    display: block;
+    width: 80%;
+    height: 4px;
+    background-color:#ed6e52;
+    border-radius: 2px;
+}
+.rank2{
+    display: block;
+    width: 70%;
+    height: 4px;
+    background-color:#ef8150;
+    border-radius: 2px;
+}
+.rank3{
+    display: block;
+    width: 65%;
+    height: 4px;
+    background-color:#f19e4f;
+    border-radius: 2px;
+}
+.rank4{
+    display: block;
+    width: 60%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank5{
+    display: block;
+    width:55%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank6{
+    display: block;
+    width:50%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank7{
+    display: block;
+    width:45%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank8{
+    display: block;
+    width:40%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank9{
+    display: block;
+    width:35%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
+.rank10{
+    display: block;
+    width:30%;
+    height: 4px;
+    background-color:#7ecaf0;
+    border-radius: 2px;
+}
