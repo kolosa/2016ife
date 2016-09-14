@@ -406,6 +406,7 @@ background:#ddd;
     height: 360px;
     background-color: #fff;
     border-radius: 5px;
+    float: left;
 }
 
 .flh{
@@ -491,3 +492,73 @@ background:#ddd;
     left:0;
     top:40px;
 }
+.frt{
+    width: 355px;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 5px;
+    float: right;
+}
+.frtb{
+    width: 100%;
+    height: 100%;
+}
+.frtbu{
+    padding: 4px;
+    width: 290px;
+    height: 270px;
+    margin: auto;
+    margin-top: 15px;
+    list-style: none;
+}
+.frtb1{
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #aaa;
+}
+.frtbu p{
+    margin-left: 7px;
+}
+.frtbu p span{
+    color:#aaa;
+}
+.frtb2{
+    padding: 4px;
+    width: 33.3%;
+    height: 40px;
+    border-bottom: solid 1px #aaa ;
+    border-right: solid 1px #aaa ;
+    float:left;
+}
+.frtb3{
+    padding: 4px;
+    width: 60.6%;
+    height: 40px;
+    border-bottom: solid 1px #aaa ;
+    float:right;
+}
+.frtb4{
+    width: 100%;
+    height: 190px;
+    border-bottom: solid 1px #aaa ;
+}
+.frtb5{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+.frtb5 label{
+    float: left;
+    color:#aaa;
+    font-size: 15px;
+}
+.frtb5 input[type="submit"]{
+    float:right;
+    width:50px;
+    height:26px;
+    margin-right: 10px;
+    text-align: center;background:#388ac1;
+    color:#fff;
+    border-radius: 2px;
+    border: none;
+  }
