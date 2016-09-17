@@ -16,7 +16,7 @@ function rightenter() {
     var par=document.getElementById("pa");
     var adiv=document.createElement("div");
     adiv.innerHTML=val
-    if ((/^[0-9]+$/).test(val)){
+    if ((/^[0-9]+$/).test(val)){     //正则表达式贪婪模式
         par.appendChild(adiv)
     }
     else {
@@ -24,22 +24,10 @@ function rightenter() {
     }
 }
 function leftdelete(){
-    var par=document.getElementById("pa");
-    par.removeChild(pa.firstChild)
+    var par=document.getElementById("pa");                 //增加判断
+    par.removeChild(par.firstChild)
 }
 function rightdelete(){
     var par=document.getElementById("pa");
-    par.removeChild(pa.lastChild)
+    par.removeChild(par.lastChild)
 }
-
-/*function  addd(obj){
-    var par=document.getElementById(obj);
-
-    var adiv=document.createElement("div");
-
-    adiv.innerHTML="444";
-
-    par.appendChild(adiv)
-}
-addd(part)
-*/
