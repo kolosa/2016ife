@@ -1,34 +1,45 @@
 var arr=[];
 function leftenter(){
     var val=document.getElementById("area").value;
+    var par=document.getElementById("pa");
+    var adiv=document.createElement("div");  //加冒号
+    adiv.innerHTML=val
     if ((/^[0-9]+$/).test(val)){
-        arr.unshift(val);
-        alert(arr);}
+        par.insertBefore(adiv,par.firstChild)
+    }
     else {
         alert("请输入数字");
     }
 }
 function rightenter() {
     var val=document.getElementById("area").value;
+    var par=document.getElementById("pa");
+    var adiv=document.createElement("div");
+    adiv.innerHTML=val
     if ((/^[0-9]+$/).test(val)){
-        arr.push(val);
-        alert(arr);}
+        par.appendChild(adiv)
+    }
     else {
         alert("请输入数字");
     }
 }
 function leftdelete(){
-    var arry=arr.splice(0,1);
-    alert(arr)
+    var par=document.getElementById("pa");
+    par.removeChild(pa.firstChild)
 }
 function rightdelete(){
- var i=arr.length-1;
-    var arry=arr.splice(i,1);
-    alert(arr);
+    var par=document.getElementById("pa");
+    par.removeChild(pa.lastChild)
 }
 
-    for(var i=0;i<arr.length;i++){
-        var blo=document.getElementById("block");
-        var ar=arr[i].value;
-        bol.append(ar);
-    }
+/*function  addd(obj){
+    var par=document.getElementById(obj);
+
+    var adiv=document.createElement("div");
+
+    adiv.innerHTML="444";
+
+    par.appendChild(adiv)
+}
+addd(part)
+*/

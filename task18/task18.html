@@ -5,14 +5,16 @@
     <title>Title</title>
 </head>
 <style>
-    li {
-        float: left;
+   #pa div{
         width: 55px;
         height: 55px;
         line-height: 55px;
         color: #fff;
         list-style: none;
         text-align: center;
+       background-color: red;
+       display: inline-block;
+       margin: 10px;
     }
 </style>
 <body>
@@ -22,7 +24,8 @@
 <input type="button" value="右侧入" onclick="rightenter()"/>
 <input type="button" value="左侧出" onclick="leftdelete()"/>
 <input type="button" value="右侧出" onclick="rightdelete()"/>
-<ul></ul>
+<div id="pa">
+</div>
 
 
 
