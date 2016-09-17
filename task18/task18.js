@@ -28,7 +28,7 @@ function rightdelete(){
 }
 
     for(var i=0;i<arr.length;i++){
-        var blo=document.getElementsById("block");
+        var blo=document.getElementById("block");
         var ar=arr[i].value;
         bol.append(ar);
     }
