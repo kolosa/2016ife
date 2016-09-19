@@ -54,28 +54,19 @@ function rightdelete(){
     var par=document.getElementById("pa");
     par.removeChild(par.lastChild)
 }
-function heightarr(){
-    var arr=[]
-    var len=document.getElementById("pa").getElementsByTagName("div")
-    for (i=0;i<len.length;i++){
-        var num=parseInt(len[i].style.height)
+
+ function heightarr() {
+    var arr = []
+    var len = document.getElementById("pa").getElementsByTagName("div")
+    for (i = 0; i < len.length; i++) {
+        var num = parseInt(len[i].style.height)
         arr.push(num)
     }
-    return arr
- }
-function  sortarr(arr){
-    data.sort(function(a,b){
-        return a[1]-b[1]
-    })
-    return arr
-}
-function render(arr) {
-    var list=document.getElementById("pa");
-    var nlist="";
-    for (var i = 0; i < arr.length; i++) {
-        var aqiData = data[i];
+    arr.sort()
+    for (j = 0; j < len.length; j++) {
+        len[j].style.height=parseInt(arr[j])+"px"
     }
-    list.innerHTML=nlist
 }
+
 
 
