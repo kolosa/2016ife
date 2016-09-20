@@ -13,6 +13,17 @@ var aqiData = {};
  * 然后渲染aqi-list列表，增加新增的数据
  */
 function addAqiData() {
+    var city=document.getElementById("aqi-city-input").value.trim()
+    var value=document.getElementById("aqi-value-input").value.trim()
+    if(!/^[\u4e00-\u9fa5a-zA-Z]+$/.test(city)){
+        alert("城市名必须由中英文字符")
+        return flase
+    }
+    if (!/^[1-9]*$/.test(value)) {
+        alert('请输入正整数!');
+        return flase
+    }
+    aqiData[city] = value
 
 }
 
