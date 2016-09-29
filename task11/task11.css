@@ -5,11 +5,37 @@
 .page{
     margin: auto;
     border: solid 1px;
-    width: 800px;
+    font-family: "微软雅黑";
 }
 .page ul{
     list-style: none;
 }
-.page ul li{
+.head{
+    background-color: #91d4da;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    left: 0px;
+    padding-left: 60px;
+    margin: auto;
+    background: url("img/imgleft.jpg")no-repeat;
+}
+.banner {
+    width: 100%;
+    border: solid 2px;
+    height: 70px;
+}
+.banner li{
     float: left;
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    color:#6f7178;
+    font-size: 40px;
 }
