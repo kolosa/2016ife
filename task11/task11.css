@@ -4,7 +4,6 @@
 }
 .page{
     margin: auto;
-    border: solid 1px;
     font-family: "微软雅黑";
 }
 .page ul{
@@ -44,29 +43,50 @@
 }
 .title{
     width: 100%;
-    height: 900px;
+    height: 1200px;
 }
 
 .title img{
     width: 100%;
 }
+.titleul1{
+    padding: 20px;
+}
 .titleul1 li{
     float: left;
     width: 20%;
-    height: 150px;
+    height: 160px;
+    text-align: center;
+    border-bottom: solid 2px #ccc;
+    box-sizing: border-box
 }
 .titleul1 li img{
     width: 45%;
     height: 75%;
 }
 .titleul2 li{
+    margin-top: 50px;
     float: left;
     width: 33.3%;
+    height: 180px;
+    text-align: center;
+    border-left: solid 2px #ccc;
+    box-sizing: border-box
 }
 .titleul2 li img{
     width: 50%;
     height: 75%;
 }
 .module{
-    margin-top: 200px;
+    width: 100%;
+    border: solid 2px;
+}
+.moudle ul{
+    border: solid;
+    width: 70%;
+    float: right;
+}
+.module ul li{
+    width: 50%;
+    float: left;
 }
