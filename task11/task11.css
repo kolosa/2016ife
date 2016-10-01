@@ -12,7 +12,7 @@
 .head{
     background-color: #91d4da;
     color: #fff;
-    height: 70px;
+    height:4.5rem;
     width: 100%;
     font-size: 30px;
     line-height: 70px;
@@ -27,12 +27,12 @@
 }
 .banner {
     width: 100%;
-    height: 70px;
+    height: 4.5rem;
 }
 .banner li{
     float: left;
     width: 20%;
-    height: 70px;
+    height: 4.5rem;
     text-align: center;
     color:#6f7178;
     font-size: 40px;
@@ -43,7 +43,9 @@
 }
 .title{
     width: 100%;
-    height: 1200px;
+}
+.title ul{
+    float: left;
 }
 
 .title img{
@@ -78,8 +80,10 @@
     height: 75%;
 }
 .module{
-    width: 100%;
-    border: solid 2px;
+      margin-top: 500px;
+      clear: both;
+      width: 100%;
+      border: solid 2px;
 }
 .moudle ul{
     border: solid;
