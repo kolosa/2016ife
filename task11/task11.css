@@ -43,6 +43,8 @@
 }
 .title{
     width: 100%;
+    clear: both;
+    border: solid 2px;
 }
 .title ul{
     float: left;
@@ -80,10 +82,14 @@
     height: 75%;
 }
 .module{
-      margin-top: 500px;
+      margin-top: 70px;
       clear: both;
       width: 100%;
       border: solid 2px;
+      padding: 20px;
+}
+.module  img{
+    width:20% ;
 }
 .moudle ul{
     border: solid;
@@ -92,5 +98,5 @@
 }
 .module ul li{
     width: 50%;
-    float: left;
+
 }
