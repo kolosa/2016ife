@@ -1,13 +1,3 @@
-/* 数据格式演示
- var aqiSourceData = {
- "北京": {
- "2016-01-01": 10,
- "2016-01-02": 10,
- "2016-01-03": 10,
- "2016-01-04": 10
- }
- };
- */
 
 // 以下两个函数用于随机模拟生成测试数据
 function getDateStr(dat) {
@@ -43,19 +33,36 @@ var aqiSourceData = {
 };
 
 // 用于渲染图表的数据
+/*<option>上海</option>
+<option>广州</option>
+<option>深圳</option>
+<option>成都</option>
+<option>西安</option>
+<option>福州</option>
+<option>厦门</option>
+<option>沈阳</option>*/
 var chartData = {};
 
 // 记录当前页面的表单选项
 var pageState = {
     nowSelectCity: -1,
     nowGraTime: "day"
-}
+};
 
 /**
  * 渲染图表
  */
 function renderChart() {
+    var divchart=document.getElementsByClassName("aqi-chart-warp");
+    divchart.innerHTML="";
+    var color='#'+Math.floor(Math.random()*16777215).toString(16);
+    for(var i in chartData ){
+        var aqivalue=chartData[i];
+        var cDiv=document.createElement("div")
+        divchart.innerHTML+="<div style='background-color:"+color+
+            ";margin-left: 5px;height:"+aqivalue+"px;"+"></div>"
 
+    }
 }
 
 /**
@@ -67,6 +74,7 @@ function graTimeChange() {
     // 设置对应数据
 
     // 调用图表渲染函数
+    renderChart()
 }
 
 /**
