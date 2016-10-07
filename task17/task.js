@@ -54,14 +54,11 @@ var pageState = {
  */
 function renderChart() {
     var divchart=document.getElementsByClassName("aqi-chart-warp");
-    divchart.innerHTML="";
     var color='#'+Math.floor(Math.random()*16777215).toString(16);
     for(var i in chartData ){
         var aqivalue=chartData[i];
-        var cDiv=document.createElement("div")
-        divchart.innerHTML+="<div style='background-color:"+color+
-            ";margin-left: 5px;height:"+aqivalue+"px;"+"></div>"
-
+        divchart.innerHTML+='<div style=background-color:'+color+
+        ";margin-left: 5px;height:"+aqivalue+"px;title="+("空气质量"+aqivalue)+"></div>"
     }
 }
 
@@ -70,10 +67,11 @@ function renderChart() {
  */
 function graTimeChange() {
     // 确定是否选项发生了变化
-
-    // 设置对应数据
-
-    // 调用图表渲染函数
+    if(pageState.nowGraTime!=this.value){
+        pageState.nowGraTime=this.value
+    }else {
+        return
+    }
     renderChart()
 }
 
@@ -81,17 +79,23 @@ function graTimeChange() {
  * select发生变化时的处理函数
  */
 function citySelectChange() {
-    // 确定是否选项发生了变化
-
-    // 设置对应数据
-
-    // 调用图表渲染函数
+    if(pageState.nowSelectCity!=this.value){
+        pageState.nowSelectCity=this.value
+    }else {
+        return
+    }
+    renderChart()
 }
 
 /**
  * 初始化日、周、月的radio事件，当点击时，调用函数graTimeChange
  */
 function initGraTimeForm() {
+    var seldata= document.getElementById("form-gra-time").getElementsByTagName("input");
+
+    for (var i = 0;i<seldata.length;i++) {
+        seldata[i].onclick = graTimeChange;
+    }
 
 }
 
@@ -99,10 +103,16 @@ function initGraTimeForm() {
  * 初始化城市Select下拉选择框中的选项
  */
 function initCitySelector() {
-    // 读取aqiSourceData中的城市，然后设置id为city-select的下拉列表中的选项
-
-    // 给select设置事件，当选项发生变化时调用函数citySelectChange
-
+   var city="";
+    for(var cityname in aqiSourceData){
+        if(pageState.nowSelectCity==-1){
+            pageState.nowSelectCity=cityname
+        }
+        city+= "<option>" + cityName + "</option>";
+    }
+    var selcity=document.getElementById("city-select");
+    citySelect.innerHTML=city
+    selcity.onchange=citySelectChange;
 }
 
 /**
@@ -122,4 +132,4 @@ function init() {
     initAqiChartData();
 }
 
-init();
+window.onload=init();
